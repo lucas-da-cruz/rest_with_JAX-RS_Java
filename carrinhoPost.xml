@@ -1,0 +1,19 @@
+<br.com.loja.modelo.Carrinho>
+    <produtos>
+        <br.com.loja.modelo.Produto>
+            <preco>4000.0</preco>
+            <id>6237</id>
+            <nome>Videogame 4</nome>
+            <quantidade>1</quantidade>
+        </br.com.loja.modelo.Produto>
+        <br.com.loja.modelo.Produto>
+            <preco>60.0</preco>
+            <id>3467</id>
+            <nome>Jogo de esporte</nome>
+            <quantidade>2</quantidade>
+        </br.com.loja.modelo.Produto>
+    </produtos>
+    <rua>Rua Vergueiro 3185, 8 andar</rua>
+    <cidade>S&#x8b;o Paulo</cidade>
+    <id>1</id>
+</br.com.loja.modelo.Carrinho>
