@@ -6,7 +6,9 @@ import com.thoughtworks.xstream.XStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+//Caso quisesse fazer do modo sem serialização
+/*@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)*/
 public class Carrinho {
 
 	private List<Produto> produtos = new ArrayList<Produto>();

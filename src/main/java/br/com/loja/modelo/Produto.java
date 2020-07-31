@@ -1,6 +1,8 @@
 package br.com.loja.modelo;
 
-
+//Caso quisesse fazer do modo sem serialização
+/*@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)*/
 public class Produto {
 
 	private double preco;

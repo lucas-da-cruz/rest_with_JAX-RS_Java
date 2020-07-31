@@ -4,6 +4,8 @@ import br.com.loja.modelo.Carrinho;
 import br.com.loja.modelo.Produto;
 import com.thoughtworks.xstream.XStream;
 import org.glassfish.grizzly.http.server.HttpServer;
+import org.glassfish.jersey.client.ClientConfig;
+import org.glassfish.jersey.filter.LoggingFilter;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -25,6 +27,10 @@ public class ClientTest {
     @Before
     public void startServer(){
        server = Server.initServer();
+
+        ClientConfig config = new ClientConfig();
+        config.register(new LoggingFilter());
+
        //Criando uma Client HTTP
        this.client = ClientBuilder.newClient();
        //Setando o meu alvo de busca (Dominio)
